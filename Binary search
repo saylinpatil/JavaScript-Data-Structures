@@ -24,8 +24,7 @@ let high = arr.length - 1;
 
 let result = binarySearch(arr, key);
 
-(result == -1) ? console.log("Element Not present in the array")
-               : console.log("Element " + key + " found at index " + result)
+(result == -1) ? console.log("Element Not present in the array") : console.log("Element " + key + " found at index " + result)
 
 Output -
 Element 88 found at index 12
