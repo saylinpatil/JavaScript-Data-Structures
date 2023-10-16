@@ -12,9 +12,7 @@ function linearSearch(key) {
 
 let result = linearSearch(key);
 
-(result === -1)
-    ? console.log("Element not present in array")
-    : console.log("Element found at index " + result);
+(result === -1) ? console.log("Element not present in array") : console.log("Element found at index " + result);
 
 Output:-
 Element found at index 4
